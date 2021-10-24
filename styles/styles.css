@@ -51,7 +51,20 @@ body{
 .faq-card{
   position: relative;
   border-bottom-style: solid;
+  display: flex;
   
+}
+
+#card-arrow{
+  position: fixed;
+  right: 150px;
+}
+
+#card-arrow button{
+  position: relative;
+  border-radius: 50%;
+  top: 20px;
+  border-style: none;
 }
 
 .faq-card p{
@@ -59,5 +72,5 @@ body{
 }
 
 .cards{
-  display: flex;
+  
 }
